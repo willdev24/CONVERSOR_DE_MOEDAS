@@ -9,7 +9,7 @@
 body{
 
 background-color: rgb(190, 185, 185);
-display: flex;
+
 }
 
 main{
@@ -18,15 +18,16 @@ background-color: rgb(255, 255, 255);
 text-align: center;
 }
 main{
+position:relative;
 margin: 30px;
-height: 90vh;
-width:50vh;
+height: 95vh;
+width:45vh;
 background-color: rgb(243, 229, 229);
 
 
 }
 
-#teste{
+#titu{
     background-color: rgb(0, 149, 255);
     padding: 10px;
 
@@ -41,24 +42,30 @@ background-color: rgb(243, 229, 229);
     font-family: Arial, Helvetica, sans-serif;
     justify-content:space-between;
         margin-bottom: -15px;
+    font-weight: lighter;    
 }
 
-#filho{
-
+#filho{    
+position: relative;
     padding:16px 10px;
-    height:50vh;
-
+    height:45vh;
 }
 
 input, select{
-
    margin-bottom:10px ;
    width: 90%;
    padding:9px  ;
-border-radius: 3px;
-border:none
+border-radius: 5px;
+border:1px 
 }
 
+label{
+margin-right:160px;
+}
+
+#real-2{
+    margin-right: 225px;
+}
 
 #convert{
     color: rgb(255, 255, 255);
@@ -73,10 +80,45 @@ border:none
 }
 
 #convert:hover{
-    background-color:rgb(62, 32, 233);
+background-color:rgb(0, 0, 0);
 color:rgb(255, 255, 255) ;
 }
 
+#quadro{    
+    position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 135px 0px;
+    border-style: solid ;
+    border-color: aqua;
+}
 
+#comimg{
+position: relative;
+padding: 10px;
+margin-top: -135px;
+}
+
+#comimg02{
+position: absolute;
+padding: 0px ;
+margin-left: 95px;
+margin-top: 30px;
+}
+
+#foto{
+height: 60px;
+width: 35%;
+border-radius: 300px 300px;
+}
+
+#foto02{
+    height: 75px;
+    width: 90%;
+
+
+
+
+}
 
 

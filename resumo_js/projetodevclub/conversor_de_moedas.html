@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="br-pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>convertor</title>
 <link rel="stylesheet" href="layalt.css">
 
 </head>
@@ -11,41 +11,48 @@
     
 <main>
 
-       <div id="teste">
+       <div id="titu">
          <h1 id="ti">conversor de moedas</h1>
        </div>
 
-       <section id="pai">
+       <section>
         <form id="filho">
             <div>
                 <label for="real">Converter do </label><br> 
-                <input type="text" id="real" placeholder="R$ REAL BRASILEIRO" > <br>   
+                <input type="text" id="real" name="realbr" placeholder="R$ REAL BRASILEIRO" > <br>   
             </div>
             
             <div>
                 <label for="outros">Converter para </label>
                 <select name="moeda" id="outros"  >
-                  <option value="real">real brasileiro</option>
+                  <option value="real"> euro</option>
                   <option value="usr">dolar americano</option>
                </select>
            </div>
 
           <div>
-             <label for="real">Valor</label>
+             <label for="real" id="real-2">Valo</label>
              <input type="number" id="real">
           </div>
-     
-       
+        
             <input type="button" id="convert" value="converter" >
-       
          </form>
-       </section>
-
-       <div>
-        <img src="" alt="">
-
+       </section> 
+     
+       <section id="quadro">
+      <div id="comimg" >
+        <img src="./brasil.png" alt="" id="foto">
+        <p>BRASIL</p>
+        <p>00,00</p>
        </div>
-
+   
+       <div id="comimg02" >
+        <img  src="./eua.png" alt="" id="foto02">
+        <p>EUA</p>
+        <p>00,00</p>
+       </div>
+     </section>
+       
 
 
 </main>
