@@ -19,20 +19,21 @@
         <form id="filho">
             <div>
                 <label for="real">Converter do </label><br> 
-                <input type="text" id="real" name="realbr" placeholder="R$ REAL BRASILEIRO" > <br>   
+                <input type="text" id="real" name="realbr"  placeholder="R$ REAL BRASILEIRO" > <br>   
             </div>
             
             <div>
-                <label for="outros">Converter para </label>
-                <select name="moeda" id="outros"  >
-                  <option value="real"> euro</option>
-                  <option value="usr">dolar americano</option>
+                <label for="outros" >Converter para </label>
+                <select  id="outros" onchange="selecionandomoeda() ">
+                  <option  value="001"  > euro</option>
+                  <option  value="002" selected >dolar americano</option>
+                  <option  value="003" > bitcon</option>
                </select>
            </div>
 
           <div>
              <label for="real" id="real-2">Valor</label>
-             <input type="number" id="real">
+             <input type="number" id="moedareal">
           </div>
         
             <input type="button" id="convert" value="converter" >
@@ -43,13 +44,13 @@
       <div id="comimg" >
         <img src="./brasil.png" alt="" id="foto">
         <p>BRASIL</p>
-        <p>00,00</p>
+        <p id="result"></p>
        </div>
    
        <div id="comimg02" >
         <img  src="./eua.png" alt="" id="foto02">
         <p>EUA</p>
-        <p>00,00</p>
+        <p id="moneyuea"></p>
        </div>
      </section>
        
