@@ -45,16 +45,19 @@ position: relative;
 }
 
 input, select{
-   margin-bottom:10px ;
-   width: 90%;
-   padding:9px  ;
-border-radius: 5px;
-border:1px;
-outline: none;
-appearance: none;
-cursor: pointer;
-box-shadow: 2px 2px 5px rgb(0, 0, 0,0.150) ;
+    margin-bottom:10px ;
+    width: 90%;
+    margin-top: 3px;
+    padding:9px  ;
+    border-radius: 5px;
+    border:1px;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0,0.150) ;
 }
+
+#real{}
 
 
 label{
