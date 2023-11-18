@@ -3,17 +3,14 @@
 *{box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 body{
-
 background-color: rgb(190, 185, 185);
-
 }
 
 main{
-box-shadow: 5px 5px 10px black;;
+box-shadow: 2px 2px 5px rgb(0, 0, 0,0.550);
 background-color: rgb(255, 255, 255);
 text-align: center;
 }
@@ -23,15 +20,11 @@ margin: 30px;
 height: 95vh;
 width:45vh;
 background-color: rgb(243, 229, 229);
-
-
 }
 
 #titu{
     background-color: rgb(0, 149, 255);
     padding: 10px;
-
-    
 }
 
 #ti{
@@ -64,7 +57,6 @@ box-shadow: 2px 2px 5px rgb(0, 0, 0,0.150) ;
 }
 
 
-
 label{
 margin-right:160px;
 }
@@ -91,25 +83,26 @@ color:rgb(255, 255, 255) ;
 }
 
 #quadro{
+    box-sizing: border-box;
+    position: relative;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 135px 0px;
+    padding: 150px 0px;
     border-style: solid ;
-    border-color: aqua;
+    margin-top:-30px;
+    border-color: rgb(0, 149, 255);
+    align-items: center;
 }
 
 #comimg{
-position: relative;
 padding: 10px;
-margin-top: -135px;
+margin-top: -140px;
 }
 
 #comimg02{
-   
-position: absolute;
+
 padding: 0px ;
-margin-left: 95px;
-margin-top: 30px;
+margin-top: -150px;
 }
 
 #foto{
@@ -119,12 +112,10 @@ border-radius: 300px 300px;
 }
 
 #foto02{
-  
+    margin-top: 20px;  
     height: 75px;
-    width: 50%;
+    width: 25%;
 
 
 }
-
-
 
