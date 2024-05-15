@@ -7,6 +7,8 @@
 
 body{
 background-color: rgb(190, 185, 185);
+display: flex;
+    justify-content: center;
 }
 
 main{
